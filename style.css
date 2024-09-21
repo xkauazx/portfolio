@@ -1,0 +1,146 @@
+@charset "pt-br";
+body{
+    background-color: #0e0e0e  ;
+    font-family: sans-serif;
+
+
+}
+nav{
+    position: fixed;
+    top: 0;
+   margin-left: 470px;
+    z-index: 1000;
+}
+nav ul  {
+    
+    font-size: 15px;
+    margin: 0;
+    color: aliceblue;
+    justify-content: space-around;
+    padding: 10px;
+    display: flex;
+    list-style: none;
+    justify-content: flex-start;
+    width: 50%;
+ 
+}
+nav ul li {
+    margin: 0 10px;
+  
+
+}
+nav ul li a{
+    color: aliceblue;  
+    text-decoration: none; 
+    font-weight: bold;
+    
+}
+nav ul li a:hover{
+color: #757474;  
+}
+
+#linkd{
+    position: absolute;
+    top: 35%;
+    left: 240px;
+    
+}
+#instal{
+    position: absolute;
+    top: 42%;
+    left: 240px;
+}
+#gitl{
+    
+    position: absolute;
+    top: 49%;
+    left: 240px;
+}
+
+
+    
+  
+
+
+#cv{
+    color: #757474;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main > h1{
+    color: white;
+    margin: 135px 202px 13px 373px;
+    font-size: 40px;
+   
+}
+main > p{
+    color: #757474;
+    margin: 15px 202px 13px 373px;
+    width: 500px;
+    font-size: 14px;
+    padding: 9px 0px 33px 0px;
+   
+}
+main > h2{
+    margin: -7px 202px 13px 373px;
+    border:1px solid  #575656;
+    width: 60px;
+    border-radius: 15px;
+    font-size: 12px;
+    height: 15px;
+    color: rgb(134, 134, 134);
+    text-align: center;
+    padding: 3px 3px 3px 3px;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    background-color: #2b2b2bab;
+}
+article > h1{
+    color: white;
+    text-align: center;
+    margin: 90px 3px 80px 3px;
+}
+#sb:hover{
+    background-color: #383838;
+}
+hr {
+    width: 1300px;
+    height: 1px;
+    margin: 20px auto;
+    background-color: #757474;
+    border: none;
+    position: absolute;
+   top:55%;
+   margin-left: 26px;
+}
+article > h2,h3{
+    color: #757474;
+    font-size: 14px;
+    display: inline;
+    
+  
+    
+}
+article > div{
+    border: 1px solid #757474 ;
+    width: 300px;
+    text-align: center;
+    border-radius: 15px;
+    margin: 0px 0px 0px 300px
+}
+div > h3{
+    display: block;
+    text-align: left;
+    margin: 8px -0px 10px 14px;
+}
+.nivel{
+    font-size: 10px;
+    padding:  0px 0px 0px 0px;
+}
+div h3,h4{
+columns: 2;
+}
+
+
+    
+    
