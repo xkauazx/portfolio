@@ -1,4 +1,10 @@
 @charset "pt-br";
+html {
+    scroll-behavior: smooth;
+}
+#inicio {
+    padding-top: 15px; /* Ajuste este valor para o tamanho da sua navbar */
+}
 body{
     background-color: #0e0e0e  ;
     font-family: sans-serif;
@@ -8,8 +14,12 @@ body{
 nav{
     position: fixed;
     top: 0;
-   margin-left: 470px;
     z-index: 1000;
+    background-color: #0e0e0e;
+    border: 1px solid #0e0e0e;
+    width: 100%;
+    
+   
 }
 nav ul  {
     
@@ -122,25 +132,66 @@ article > h2,h3{
     
 }
 article > div{
+ display: inline-block;
     border: 1px solid #757474 ;
     width: 300px;
     text-align: center;
     border-radius: 15px;
-    margin: 0px 0px 0px 300px
+    margin: 0px 0px 0px 95px;
+    background-color: #0000009c;
+    
 }
-div > h3{
+div > h2{
+    color:  #757474;
+    
+}
+div > ul {
     display: block;
     text-align: left;
-    margin: 8px -0px 10px 14px;
-}
-.nivel{
-    font-size: 10px;
-    padding:  0px 0px 0px 0px;
-}
-div h3,h4{
-columns: 2;
+    margin: 8px 0px 10px 14px;
+    color: #757474;
+    columns: 2;  
+    gap: 30px;
 }
 
+div > ul > li {
+    position: relative; 
+    margin: 0px 0px 28px 0px;
+    list-style-type: none;
+}
+
+div > ul > li::before {
+    content: "\2713"; /* Símbolo de check */
+    color: #757474; /* Cor do check */
+    font-weight: bold;
+    position: absolute;
+    left: -20px; /* Posição à esquerda do texto */
+    top: 0; /* Alinha o check com o texto */
+ 
+}
+
+.nivel {
+    font-size: 10px;
+    color: #888;
+    display: block;
+    margin-left: 20px; /* Adiciona espaço à esquerda */
+    margin-top: 2px; /* Espaçamento entre a tecnologia e o nível */
+}
+div > ul > li::before {
+    content: "\2713"; /* Símbolo de check */
+    color: #757474; /* Cor do check */
+    font-weight: bold;
+    position: absolute;
+    left: -20px; /* Posição à esquerda do texto */
+    top: 0; /* Alinha o check com o texto */
+}
+aside > h1{
+    color: white;
+    text-align: center;
+    margin: 90px 3px 80px 3px;
+
+}
+   
 
     
     
