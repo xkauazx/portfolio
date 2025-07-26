@@ -618,6 +618,7 @@ h3 {
   flex: 1;
   position: relative;
 }
+
 .social-card{
     display: grid;
     justify-content: center;
